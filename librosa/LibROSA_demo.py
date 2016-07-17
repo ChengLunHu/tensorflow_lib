@@ -91,4 +91,5 @@ plt.tight_layout()
 # For future use, we'll stack these together into one matrix
 M = np.vstack([mfcc, delta_mfcc, delta2_mfcc])
 
-plt.show()
+# plt.show()
+plt.savefig('LibROSA_demo.png')
